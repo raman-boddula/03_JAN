@@ -55,6 +55,22 @@
       "image": "blob:http://localhost:3000/64a5fd74-4131-43b8-982c-d6b39df957ef",
       "instructions": "instructions of chicken frankiee",
       "id": 7
+    },
+    {
+      "title": "creamstone icecream-nuts overload",
+      "ingredients": "icecream,nuts",
+      "timetocook": "10",
+      "image": "blob:http://localhost:3000/0488c0a3-4ec0-4fc1-9466-6c19c50c316c",
+      "instructions": "instructions of Nutsoverload",
+      "id": 8
+    },
+    {
+      "title": "mutton biryani",
+      "ingredients": "fresh mutton,masalas,biryani masala,salt,curd,basmathi rice",
+      "timetocook": "90",
+      "image": "blob:http://localhost:3000/2689af2b-4e95-4c1a-b5a0-26e6c760e799",
+      "instructions": "instructions of mutton biryani is ;...........cook",
+      "id": 9
     }
   ]
 }
