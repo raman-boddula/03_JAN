@@ -12,19 +12,21 @@ export const Parent = (id) => {
     }
     React.useEffect(() => {
         fetch("http://localhost:3333/receipeData").then(d => d.json()).then(d => setData(d));
-    }, []);
+    }, [screen]);
     console.log("data",data)
     return (
-        <>
+        <div className="mainDiv">
+            <div>
             < ReceipeInput />
+            </div>
+            <div >
             {data.length > 1 ? <ListView />:null}
-            <div className="mDiv">
-            {data.map((el) => <ListViewData key={el.id}{...el} />)}
+            {data.map((el) => <ListViewData key={el.id}{...el} dummyFunc={dummyFunc}/>)}
             </div>
             <div>
             < Display {...screen} />
             </div>
-        </>
+        </div>
     );
 
 } 

@@ -5,6 +5,11 @@ grid-template-columns: 49% 49%;
 grid-gap: 2%;
 margin-left:30%;
 }
+.mainDiv{
+    display: grid;
+    grid-template-columns: 49% 49%;grid-gap:2%;
+    border:1px solid violet;
+}
 .mDiv{
     width:25%;
     max-height:250px;

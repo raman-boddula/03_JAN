@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "receipeData": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "biryani",
+      "ingredients": "chicken",
+      "timetocook": "60",
+      "image": "blob:http://localhost:3000/b33a15b3-cc74-4b12-87df-ab42616af73d",
+      "instructions": "instructions of biryani",
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "french fries",
+      "ingredients": "aloo mayoanise",
+      "timetocook": "25",
+      "image": "blob:http://localhost:3000/194878eb-08de-460f-b705-61d29e9d1b50",
+      "instructions": "instructions of mcd fries",
+      "id": 2
+    },
+    {
+      "title": "burger",
+      "ingredients": "tomoato ,aloo ,mayoanise,break",
+      "timetocook": "35",
+      "image": "blob:http://localhost:3000/194878eb-08de-460f-b705-61d29e9d1b50",
+      "instructions": "instructions of mcd burger",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

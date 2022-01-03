@@ -2,8 +2,15 @@ import React from "react";
 
 export const Display = ({ title,ingredients,dummyFunc}) => {
     return (
-        <div>
-            {title} { ingredients}
+        <div className="mdiv1">
+            <div>
+            {title}
+
+            </div>
+            <div>
+            {ingredients}
+
+            </div>
         </div>
     )
 }

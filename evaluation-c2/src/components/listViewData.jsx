@@ -6,8 +6,11 @@ export const ListViewData = ({id,title,timetocook,dummyFunc}) => {
     }
     return (
         <div onClick={()=>handle(id)} className="mdiv1">
-            { title} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            <div>
+                {title} </div>
+            <div>
             {timetocook } Min
+                </div>
         </div>
     )
 }
