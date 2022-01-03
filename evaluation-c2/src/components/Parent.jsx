@@ -21,15 +21,21 @@ export const Parent = (id) => {
             <div>
             < ReceipeInput />
             </div>
-            <div >
+            <div  >
                 <Button  type="primary" onClick={()=>setSorted("asc")}>Sort by Less Cooking Time</Button>
                 <Button  type="primary" onClick={()=>setSorted("desc")}>Sort by More Cooking Time</Button>
                 {data.length > 1 ? <ListView /> : null}
+                <div className="scrollBar">
             {data.map((el) => <ListViewData key={el.id}{...el} dummyFunc={dummyFunc}/>)}
+                </div>
             
             </div>
             <div>
-            < Display {...screen} />
+                <>
+                    { screen ?
+                        < Display {...screen} /> :null       
+                    }
+                    </>
             </div>
         </div>
     );

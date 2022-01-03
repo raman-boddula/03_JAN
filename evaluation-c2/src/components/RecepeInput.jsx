@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./listView.css"
 export const ReceipeInput = () => {
     const [receipe, setReceipe] = React.useState(null);
     const ref = React.useRef(null);
@@ -20,18 +20,18 @@ export const ReceipeInput = () => {
         })
     }
     return (
-        <div> 
+        <div className="inputform"> 
             <form onSubmit={handleSubmit}>
-                <label>Title</label> &ensp;
+                <label>Title</label> <br></br>
                 <input type="text" name="title" placeholder="" onChange={handleChange} /><br></br>
-                <label>Ingredients</label> &ensp;
+                <label>Ingredients</label> <br></br>
                 <input type="text" name="ingredients" placeholder="ingredients" onChange={handleChange} /><br></br>
-                <label>Time to Cook</label> &ensp;
+                <label>Time to Cook</label> <br></br>
                 <input type="text" name="timetocook" placeholder="enter estimates time to cook" onChange={handleChange} /><br></br>
-                <label>Image</label> &ensp;
+                <label>Image</label> <br></br>
                 <input type="file" ref={ref} name="image" onChange={handleChange} /><br></br>
                 
-                <label>Instructions</label> &ensp;
+                <label>Instructions</label> <br></br>
                 <input type="text" name="instructions" placeholder="" onChange={handleChange} /><br></br>
                 <input type="submit" />
             </form>
