@@ -23,6 +23,38 @@
       "image": "blob:http://localhost:3000/194878eb-08de-460f-b705-61d29e9d1b50",
       "instructions": "instructions of mcd burger",
       "id": 3
+    },
+    {
+      "title": "grilled chicken",
+      "ingredients": "chicken,masala,oven,silver wrapper",
+      "timetocook": "60",
+      "image": "blob:http://localhost:3000/93e2a8ed-70aa-4f3e-ad7d-57fb3d798ab0",
+      "instructions": "instructions of grilled chicken ",
+      "id": 4
+    },
+    {
+      "title": "grilled chicken",
+      "ingredients": "chicken,masala,oven,silver wrapper",
+      "timetocook": "60",
+      "image": "blob:http://localhost:3000/93e2a8ed-70aa-4f3e-ad7d-57fb3d798ab0",
+      "instructions": "instructions of grilled chicken ",
+      "id": 5
+    },
+    {
+      "title": "tandorri chicken",
+      "ingredients": "chicken,masala,oven,silver wrapper",
+      "timetocook": "60",
+      "image": "blob:http://localhost:3000/64a5fd74-4131-43b8-982c-d6b39df957ef",
+      "instructions": "instructions of tandoori chicken",
+      "id": 6
+    },
+    {
+      "title": "chicken franki",
+      "ingredients": "chicken bionelles,mayonaise,roti,egg,masal",
+      "timetocook": "15",
+      "image": "blob:http://localhost:3000/64a5fd74-4131-43b8-982c-d6b39df957ef",
+      "instructions": "instructions of chicken frankiee",
+      "id": 7
     }
   ]
 }
