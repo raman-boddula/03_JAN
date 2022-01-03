@@ -1,0 +1,23 @@
+.mdiv{
+    width:40%;
+    display:grid;
+    grid-template-columns: 49% 49%;
+    grid-gap:2%;
+    background-color:black;
+    color:aqua;
+    margin-left:30%;
+}
+.mDiv{
+    width: 40%;
+    max-height:100px;
+    overflow:scroll;
+    margin-left: 30%;
+}
+.mdiv1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 2%;
+    background-color: aqua;
+    color: black;
+}
