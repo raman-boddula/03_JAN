@@ -14,7 +14,9 @@ export const ReceipeInput = () => {
         console.log("receipe",receipe)
         console.log("files", ref.current.files[0]);
         fetch("http://localhost:3333/receipeData", {
-            
+            method: "POST",
+            headers: { 'Content-Type': "application/json" },
+            body: JSON.stringify(receipe),
         })
     }
     return (

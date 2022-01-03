@@ -1,0 +1,12 @@
+{
+  "receipeData": [
+    {
+      "title": "pizza",
+      "ingredients": "maida,sauce,oven,more",
+      "timetocook": "35min",
+      "image": "blob:http://localhost:3000/3f8de34a-fa4c-4375-932a-7ee38a4ffc64",
+      "instructions": "instructions of pizza",
+      "id": 1
+    }
+  ]
+}
