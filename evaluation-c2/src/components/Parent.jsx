@@ -1,5 +1,6 @@
 import "./listView.css"
 import React from "react";
+import {Button} from "antd"
 import { ReceipeInput } from "./RecepeInput";
 import { ListView } from "./ListView";
 import { ListViewData } from "./listViewData";
@@ -21,8 +22,8 @@ export const Parent = (id) => {
             < ReceipeInput />
             </div>
             <div >
-                <button onClick={()=>setSorted("asc")}>Sort by Less Cooking Time</button>
-                <button onClick={()=>setSorted("desc")}>Sort by More Cooking Time</button>
+                <Button  type="primary" onClick={()=>setSorted("asc")}>Sort by Less Cooking Time</Button>
+                <Button  type="primary" onClick={()=>setSorted("desc")}>Sort by More Cooking Time</Button>
                 {data.length > 1 ? <ListView /> : null}
             {data.map((el) => <ListViewData key={el.id}{...el} dummyFunc={dummyFunc}/>)}
             
