@@ -1,8 +1,9 @@
+import "./listView.css"
 import React from "react";
 import { ReceipeInput } from "./RecepeInput";
 import { ListView } from "./ListView";
 import { ListViewData} from "./listViewData"
-export const Parent = () => {
+export const Parent = (id) => {
     const [data, setData] = React.useState([]);
 
     React.useEffect(() => {
@@ -13,7 +14,9 @@ export const Parent = () => {
         <>
             < ReceipeInput />
             {data.length > 1 ? <ListView />:null}
+            <div className="mDiv">
             {data.map((el) => <ListViewData key={el.id}{...el} />)}
+            </div>
         </>
     );
 
