@@ -1,8 +1,8 @@
 import "./listView.css"
 import {Parent} from "./Parent"
-export const ListViewData = ({id,title,timetocook}) => {
+export const ListViewData = ({id,title,timetocook,dummyFunc}) => {
     const handle = (id) => {
-        <Parent id />
+        dummyFunc(id)
     }
     return (
         <div onClick={()=>handle(id)} className="mdiv1">

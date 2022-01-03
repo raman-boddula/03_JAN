@@ -1,28 +1,20 @@
 {
   "receipeData": [
     {
-      "title": "pizza",
-      "ingredients": "maida,sauce,oven,more",
-      "timetocook": "35min",
-      "image": "blob:http://localhost:3000/3f8de34a-fa4c-4375-932a-7ee38a4ffc64",
+      "title": "Chicken Biryani",
+      "ingredients": "chicken , spices,rice basmati,curd",
+      "timetocook": "90",
+      "image": "blob:http://localhost:3000/b112b6a1-8dd9-4c4b-b451-2dafbb5046fe",
       "instructions": "instructions of pizza",
       "id": 1
     },
     {
       "title": "burger",
-      "ingredients": "incredeineteq",
-      "timetocook": "45min",
-      "image": "blob:http://localhost:3000/afc27d7a-c632-4de7-937f-a0f0c74e219c",
-      "instructions": "instructions",
+      "ingredients": "maida,sauce,bread,mayonaise",
+      "timetocook": "25",
+      "image": "blob:http://localhost:3000/a25d534a-b8c9-49e8-89ae-5ed25e5d01f9",
+      "instructions": "instructions of burger",
       "id": 2
-    },
-    {
-      "title": "maggi",
-      "ingredients": "maggi 5min",
-      "timetocook": "5min",
-      "image": "blob:http://localhost:3000/5ee43a64-235c-4167-beec-3d1e5bbfe725",
-      "instructions": "instructions of maggi",
-      "id": 3
     }
   ]
 }
